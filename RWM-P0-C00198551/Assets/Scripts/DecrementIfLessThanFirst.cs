@@ -28,40 +28,40 @@ public class DecrementIfLessThanFirst
     }
 }
 
-//public class ModuloFirst
-//{
-//    public static int modulo(int first, int num)
-//    {
-//        return num%first;
-//    }
+public class ModuloFirst
+{
+    public static int modulo(int first, int num)
+    {
+        return num % first;
+    }
 
-//    public static int[] lists(int[] xs)
-//    {
-//        int[] result = new int[xs.Length];
-//        for (int i = 0; i < xs.Length; i++)
-//        {
-//            result[i] = modulo(xs[0], xs[i]);
-//        }
-//        return result;
-//    }
+    public static int[] answerList(int[] xs)
+    {
+        int[] result = new int[xs.Length];
+        for (int i = 0; i < xs.Length; i++)
+        {
+            result[i] = modulo(xs[0], xs[i]);
+        }
+        return result;
+    }
 
-//}
+}
 
-//public class CubeFilter
-//{
-//    public static int cube(int x)
-//    {
-//        return x * x * x;
-//    }
+public class CubeFilter
+{
+    public static int cube(int x)
+    {
+        return x * x * x;
+    }
 
-//    public static int[] cubes(int[] xs)
-//    {
-//        int[] result = new int[xs.Length];
-//        for (int i = 0; i < xs.Length; i++)
-//        {
-//            result[i] = cube(xs[i]);
-//        }
-//        return result;
-//    }
+    public static int[] cubes(int[] xs)
+    {
+        int[] result = new int[xs.Length];
+        for (int i = 0; i < xs.Length; i++)
+        {
+            result[i] = cube(xs[i]);
+        }
+        return result;
+    }
 
-//}
+}
